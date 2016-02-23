@@ -1,0 +1,148 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8" />
+    <title>Index</title>
+    <script type="text/javascript" src="js/phaser.min.js"></script>
+    
+    <!-- TRYING TO RELEARN CSS -->
+    <style type="text/css">
+        body {
+            background-image: url(img/lens_flare_abstract.png);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        #header {
+            background-color: blue;
+            color:white;
+            text-align:center;
+            padding:5px;
+        }
+        #nav {
+            line-height:30px;
+            background-color:#eeeeee;
+            height:300px;
+            width:100px;
+            float:left;
+            padding:5px;	      
+        }
+        #section_margin {
+             background-image: url(img/game_margin.png);
+            background-repeat: repeat;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 10px;
+        }
+        #section {
+            background-color: #eeeeee;
+            width:800px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 5px;
+        }
+        
+        #game_margin {
+        }
+        
+        #game {
+            width: 800px;
+            height: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #footer {
+            background-color:black;
+            color:white;
+            clear:both;
+            text-align:center;
+            padding:5px;	 	 
+        }
+        
+        h1 {
+            color: red;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            margin-left: 10px
+        }
+        
+        h2 {
+            color: black;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            margin-left: 10px
+        }
+        
+        ul.a {
+            list-style-type: circle;
+        }
+         
+        p {
+            margin-left: 20px;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id = "game_margin">
+        <div id = "game">
+            <iframe src="game.html" height="600"; width="800"; marginheight= "0"; marginwidth="0"; frameborder = 0;></iframe>
+        </div>
+    </div>
+    <div id="section_margin">
+        <div id = "section">
+            
+            <h1 class >Change Log (v0.3 alpha)</h1>
+            <ul class="a">
+                <li>Improved Walljumping</li>
+                <li>Opening Menu</li>
+                <li>Pause Button</li>
+                <li>HUD</li>
+                <li>Objectives Added</li>
+                <li>End Game Collision Added</li>
+                <li>Edited Map</li>
+                <li>Simulated Static Lighting</li>
+                <li>Added Sounds for Player Feedback</li>
+            </ul>
+            
+            <h2>Change Log (v0.2 alpha)</h2>
+            <ul class="a">
+                <li>Walljump and Wallslide mechanic</li>
+                <li>Simple tilemap with appropriate collision detection</li>
+                <li>Newly added animations</li>
+                <li>Improved index.html page with integrated game</li>
+            </ul>
+            
+            <h1>Issues</h1>
+            <ul class="a">
+                <li>Although better, Walljumping is a bit restricted</li>
+                <li>No use of states, thus, loading sprites may cause some bugs</li>
+            </ul>
+            
+            <h1>About</h1>
+            <p><strong>High Concept:</strong> The game is basically Mario as a puzzle platformer.</p>
+            <p><strong>Player Experience Goals: </strong> The goal of this game is to immerse the player as he or she is traversing the procedurally generated world</p>
+            <p><strong>Genre:</strong> The genre of this game will be a 2D puzzle platformer.</p>
+            <p><strong>Game play:</strong> Currently the only new action that the player can perform is a walljump and wallslide. In future patches, there'll be more dynamic actions that the player can excute.</p>
+            <p><strong>Prototype Goal:</strong> The goal of this iteration is to evaluate the smoothness of movement.</p>
+            <p><strong>Setting/Premise:</strong> No story is apparent at the moment, since the tilemap setting is that of a testing room (similar to Valve's Portal). In later iterations, a new tilemap will be used.</p>
+            <p><strong>Story:</strong> I guess that Mario has to save Princess Peach again?</p>
+            <p><strong>Target Audience:</strong> The target audience that this game would appeal to are people of all ages.</p>
+            <p><strong>Play time:</strong> In the current alpha, the game will take less than 5 min to complete.</p>
+            <p><strong>Strategies:</strong> Don't fall, that's it!</p>
+            <p><strong>Prototype Assets:</strong></p>
+            <ul class="a">
+                <li>The Mario sprite used was created by a user "NO Body the Dragon"</li>
+                <li>Tilemap and Lighting was created by me</li>
+                <li>Diamond Sprite from Phaser example library</li>
+                <li>Ding Noise (Royalty Free)</li>
+                <li>Funky Smugglers - First Class Lounging (First Opening Background Music)</li>
+                <li>Metal Gear Solid 4 - Desperate Chase (Background Music when 5 diamonds remain)</li>
+                <li>Chip Tanaka /Acerola Beach used as a tribute to Satoru Iwata (Level Completed background Music)</li>
+            </ul>
+            <p><strong>Prototype Closest Other Game:</strong> Using the game Mario as the inspiration for the concept of the game and the Phaser Tutorial as the template to start off on</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+Improved Walljumping
+Sound Effect ('Ding')
+Menu Added
+Pause Button Added
+Added Objective
+Changed Tileset (simulated static lighting)
+Victory Psuedo State Created
+Map Edited
+New Sounds:
+	desperate chase metal gear solid 4
+	Snippet of Funky Smugglers - First Class Lounging
+	Chip Tanaka/ Acerola Beach
+	Ding Noise (Royalty Free)
